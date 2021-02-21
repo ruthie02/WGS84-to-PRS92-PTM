@@ -1,2 +1,4 @@
 # WGS84-to-PRS92-PTM
-This is a coordinate converter from WGS84 to Philippine Transverse Mercator in PRS92 datum
+This is a coordinate converter from WGS84 to Philippine Transverse Mercator in PRS92 datum using pyproj.
+
+The code involves datum transformation from WGS84 to PRS92, then reproject the PRS92 geographic coordinates to Philippine Transverse Mercator. 
