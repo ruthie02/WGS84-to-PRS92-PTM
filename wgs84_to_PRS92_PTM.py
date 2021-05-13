@@ -41,3 +41,6 @@ Longitude = float(input("Long: "))
 Elev = float(input("Elevation: "))
 PTM_zone = int(input("Enter which zone: "))
 Transformed = print(Geog_Proj(Latitude, Longitude, Elev, PTM_zone))
+
+# try to add conversion for PTM to WGS84
+# I will edit this code as soon as possible
