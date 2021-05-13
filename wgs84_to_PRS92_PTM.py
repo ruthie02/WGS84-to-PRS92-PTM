@@ -35,7 +35,7 @@ def Geog_Proj(Latitude, Longitude, Elev, Zone):
     return Northing, Easting, Height
 
 
-
+#this computes the N, E , and H 
 Latitude = float(input("Lat: "))
 Longitude = float(input("Long: "))
 Elev = float(input("Elevation: "))
